@@ -50,20 +50,20 @@ public class Main {
 
                 case "2":
                     Period age = ageCalculator.getFullAge();
-                    System.out.printf("You are %d years, %d months, and %d days old.%n",
+                    System.out.printf("\nYou are %d years, %d months, and %d days old.%n",
                             age.getYears(), age.getMonths(), age.getDays());
                     break;
 
                 case "3":
-                    System.out.println("You were born on a " + ageCalculator.getBirthDayOfWeek().toLowerCase() + ".");
+                    System.out.println("\nYou were born on a " + ageCalculator.getBirthDayOfWeek().toLowerCase() + ".");
                     break;
 
                 case "4":
-                    System.out.println("You have lived " + ageCalculator.getDaysLived() + " days.");
+                    System.out.println("\nYou have lived " + ageCalculator.getDaysLived() + " days.");
                     break;
 
                 case "5":
-                    System.out.println("Days until your next birthday: " + ageCalculator.getDaysUntilNextBirthday());
+                    System.out.println("\nDays until your next birthday: " + ageCalculator.getDaysUntilNextBirthday());
                     break;
 
                 case "6":
